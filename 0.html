@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <title>WEB - 개발왕</title>
+    <meta charset="utf-8">
+    <style>
+        body{margin:0;
+        }
+        a{ 
+            text-decoration: none;
+        }
+        h1{
+            font-size: 45px; 
+            text-align: center;
+            border-bottom:1px solid gray;
+            margin:0px;
+            background-color: coral; 
+        }
+        ol{
+            border-right:1px solid gray;
+            width:100px;
+            margin:0;
+            padding:20px;
+        }
+        #grid{
+         display:grid;
+         grid-template-columns:150px 1fr;
+        }
+        #grid ol{
+          padding-left:33px;
+        }
+        #grid #article{
+           padding-left:25px;
+        }
+        @media(max-width:800px){
+            #grid{
+                display: block;
+            }
+            o
+            l{
+            border-right:none; 
+        }
+        h1{
+        border-bottom:none;
+        }
+    }   
+    </style>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="colors.js"></script>
+
+</head>
+    <body>
+        <h1><a href="index.html">WEB</a></h1>
+
+        <input id="night_day" type="button" value="night" onclick=" 
+        nightDayHandelr(this)
+        ">
+
+    <div id="grid">
+        <ol>
+            <li><a href="0.html">개발왕</a></li>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+        <div id="article">
+            <h2>DREAM</h2>
+            <h3>내 꿈은 개발!!!</h3>
+            <p style="margin-top: 40px;">현실과 <a href="https://namu.wiki/w/%EA%B0%80%EC%83%81%ED%98%84%EC%8B%A4"
+            target="_blank" title="html5 specification">가상현실</a>에서의 나를 성장시키는 게임.</p>
+            <p> 현대 사회 모든사람들은 스마트폰을 통해 소통하고 대표적으로 인스타 같은 것을 통해 소통한다.</p>
+            <p>하지만 요즘 인스타같은 것을 통해 괴리감을 느끼는 대중들도 많다.</p> 
+            <p>그래서 sns상에서도 진짜 나를 캐릭터 LV표현 할 수 있는 GAME+sns GNS를 개발할거다.</p>
+            <h4>※첫번째 목표, 웹 사이트 만들기</h4>
+            <p><strong>세부사항</p></strong>
+            <strong>-첫번째, html 다룰줄 알기</strong><br>
+            <strong>-두번째, css 다룰줄 알기</strong><br>
+            <strong>-세번째, JavaScript 다룰줄 알기</strong><br>
+        </div>
+</div>
+</body>
+</html>
